@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+</head>
+
+<body>
+    <source media="(min-width: )" srcset="">
+    <h1>IMAGENS QUE SE ADAPTAM SOZINHAS </h1>
+    <PIcture>
+        <SOurce media="(max-width: 580px)" srcset="imagem/img-g.png" type="image/png">
+        <source media="(max-width: 720px)" srcset="imagem/img-m.png" type="image/png">
+        <img src="imagem/img-g.png" alt="IMAGEM FLEXÍVEL">
+
+    </PIcture>
+
+    <H1>REPRODUZINDO AÚDIO</H1>
+
+    <P>Reproduzir Áudio com HTML sem conversão</P>
+
+    <audio src="midia/Press Fuse.mp3" controls autoplay></audio>
+
+    <p>Reproduzindo Áudio com conversão</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Press Fuse.mp3" type="audio/mp3">
+        <source src="midia/Press Fuse.ogg" type="audio/ogg">
+        <source src="midia/Press Fuse.wav" type="audio/wav">
+
+    </audio>
+
+</body>
+
+</html>
