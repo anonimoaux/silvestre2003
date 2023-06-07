@@ -1,0 +1,48 @@
+body{
+    width: 65%;
+    text-align: center;
+    align-items: center;
+}
+.left-login {
+    flex: 2;
+}
+
+.right-login {
+    flex: 2;
+}
+
+.card-login {
+    background: linear-gradient(to bottom, hwb(0 2% 3% / 0.973),  #0272f1);
+    padding: 100px;
+    border-radius: 5px;
+   
+}
+
+.textfield {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main-login{
+    width: ;
+}
