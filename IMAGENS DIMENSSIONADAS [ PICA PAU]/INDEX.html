@@ -8,23 +8,25 @@
     <title>O Pica Pau</title>
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <style>
-           .tudo {
+        .tudo {
             width: 100%;
-            display: flex; /* Adiciona a propriedade display:flex */
-            flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha quando necessário */
-            justify-content: flex-start; /* Alinha as imagens à esquerda */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
         }
 
         .card {
-            flex: 0 0 25%; /* Define o tamanho das colunas (25% para cada imagem) */
-            padding: 10px; /* Espaçamento entre as imagens */
-            box-sizing: border-box; /* Inclui o padding e a borda no tamanho total da imagem */
-            width: 50%;
+            flex: 0 0 25%;
+            padding: 10px;
+            box-sizing: border-box;
+            width: 60%;
+            display: inline-block;
         }
 
         .card img {
-            width: 1000%; /* Faz com que a imagem ocupe todo o espaço disponível dentro da coluna */
+            width: 100%;
 
         }
 
@@ -35,10 +37,30 @@
         h1 {
             color: slategray;
         }
+        .botoes{
+
+            background-color: deeppink;
+            color: blue;
+            width: 300px;
+            height: 56px;
+            border: solid 1px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 300%;
+            
+        }
+        
+        .botoes:hover{
+            background-color: yellow;
+            
+        }
+      
     </style>
 </head>
 
 <body>
+
     <div class="tudo">
 
         <div class="linha">
@@ -46,37 +68,44 @@
                 <img class="SILVA" src="img pica pau/pica pau.jpg" alt="">
                 <div class="titulo">
                     <h1>imagem 01</h1>
-                    <img src="img pica pau/pica pau.jpg" alt="">
+                    <img class="imagem2" src="img pica pau/pica pau.jpg" alt="">
+                    <div class="botoes">
+                        <i class="bi bi-hand-thumbs-up"></i>
+                        <i class="bi bi-hand-thumbs-down"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                
+
                 </div>
             </div>
             <div class="card">
                 <img class="SILVA1" src="img pica pau/pica pau.jpg" alt="">
-                <div class="titulo">
+                <div class="titulo9">
                     <h1>imagem 02</h1>
                     <img src="img pica pau/pica pau.jpg" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="linha">
+        <div class="linha1">
             <div class="card">
                 <img class="SILVA2" src="img pica pau/pica pau.jpg" alt="">
 
-                <div class="titulo">
+                <div class="titulo1">
                     <h1>imagem 01</h1>
                     <img src="img pica pau/pica pau.jpg" alt="">
                 </div>
             </div>
             <div class="card">
                 <img class="SILVA3" src="img pica pau/pica pau.jpg" alt="">
-                <div class="titulo">
+                <div class="titulo2">
                     <h1>imagem 02</h1>
                     <img src="img pica pau/pica pau.jpg" alt="">
                 </div>
             </div>
             <div class="card">
                 <img class="SILVA4" src="img pica pau/pica pau.jpg" alt="">
-                <div class="titulo">
+                <div class="titulo3">
                     <h1>imagem 03</h1>
                     <img src="img pica pau/pica pau.jpg" alt="">
                 </div>
@@ -87,28 +116,28 @@
             <div class="card">
 
                 <img class="SILVA5" src="img pica pau/pica pau.jpg" alt="">
-                <div class="titulo">
+                <div class="titulo4">
                     <h1>imagem 01</h1>
                     <img src="img pica pau/pica pau.jpg" alt="">
                 </div>
             </div>
             <div class="card">
                 <img class="SILVA6" src="img pica pau/pica pau.jpg" alt="">
-                <div class="titulo">
+                <div class="titulo5">
                     <h1>imagem 02</h1>
                     <img src="img pica pau/pica pau.jpg" alt="">
                 </div>
             </div>
             <div class="card">
                 <img class="SILVA7" src="img pica pau/pica pau.jpg" alt="">
-                <div class="titulo">
+                <div class="titulo6">
                     <h1>imagem 03</h1>
                     <img src="img pica pau/pica pau.jpg" alt="">
                 </div>
             </div>
             <div class="card">
                 <img class="SILVA8" src="img pica pau/pica pau.jpg" alt="">
-                <div class="titulo">
+                <div class="titulo7">
                     <h1>imagem 04</h1>
                     <img src="img pica pau/pica pau.jpg" alt="">
                 </div>
